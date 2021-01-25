@@ -2,17 +2,23 @@
     margin: 0%;
     padding: 0%;
     list-style-type: none;
- font-family: "Roboto", sans-serif;
- box-sizing: border-box;
+    box-sizing: border-box;
 }
 body{
-
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
-.nav{
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.nav .container{
     display: flex;
     justify-content: space-between;
     padding: 30px;
     align-items: center;
+    width: 1340px;
 }
 .nav-logo{
     font-size: 30px;
@@ -37,8 +43,64 @@ body{
     color: red;
 }
 .join{
+    text-decoration: none;
+    color: white;
     background-color:rgb(116, 202, 231);
     padding: 10px;
     border-radius: 5px;
     box-shadow: -5px 5px 5px -5px grey;
+}
+
+.heading .container{
+    display: flex;
+    align-items: center;
+}
+.heading__text{
+    width:40% ;
+    transform: translateY(-40px);
+    
+}
+.heading-title{
+    font-size: 120px;
+    line-height: 1.5;
+}
+.heading__span{
+    color: red;
+}
+.heading-subtext{
+    margin-top: 30px;
+    line-height: 2;
+    color: grey;
+    margin-bottom: 50px;
+}
+.heading-photo{
+    width: 100%;
+    transform: translateX(100px);
+    z-index: 2;
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.half-circle{
+    position: absolute;
+    bottom: 14%;
+    left: 33%;
+    z-index: -1;
+}
+.macaron{
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    z-index: -1;
+}
+.full-stops{
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    z-index: -1;
 }
