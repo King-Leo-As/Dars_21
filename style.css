@@ -274,5 +274,53 @@ body{
     height: 100px;
     z-index: -1;
 }
+.section-thinking{
+    position: relative;
+    padding: 200px;
+    z-index: -2;
+}
+.section-thinking .container{
+    display: flex;
+    justify-content: space-around;
+}
 
+.thinking-image{
+    width: 40%;        
+}
+.thinking-text{
+    width: 48%;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+.thinking-photo{
+    width: 110%;
+    transform: translateX(-100px);
+}
+.thinking-top{
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    width: 220px;
+    height: 120px;
+}
+.thinking-bottom{
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+    width: 250px;
+    height: 150px;
+}
+.thinking-top-left{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 18%;
+    right: 30%;
+    z-index: -1;
+}
+.nissan{
+    position: absolute;
+    bottom: 20%;
+    right: 1%;
+}
 
