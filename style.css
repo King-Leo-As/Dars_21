@@ -57,7 +57,7 @@ body{
 }
 .heading__text{
     width:40% ;
-    transform: translateY(-40px);
+    transform: translateY(-15px);
     
 }
 .heading-title{
