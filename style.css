@@ -404,3 +404,21 @@ body{
     top:5%;
     transform: translateX(240px);
 }
+.logos-section{
+    background-color:rgba(0, 0, 0, 0.1)  ;
+}
+.logos-list{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+
+}
+.logos-item{
+    width: 20%;
+}
+
+/* .logos{
+    width: 250px;
+    height: 150px;
+} */
