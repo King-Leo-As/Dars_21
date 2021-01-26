@@ -50,6 +50,7 @@ body{
     border-radius: 5px;
     box-shadow: -5px 5px 5px -5px grey;
     transition: .3s;
+    text-align: center;
 }
 .join:hover{
     background-color: gold;
@@ -293,13 +294,13 @@ body{
     margin-right: 300px;
 }
 .thinking-photo{
-    width: 110%;
+    width: 100%;
     transform: translateX(-100px);
 }
 .thinking-top{
     position: absolute;
-    top: 15%;
-    right: 2%;
+    top: 17%;
+    right: 4%;
     width: 220px;
     height: 120px;
 }
@@ -335,4 +336,71 @@ body{
 .developers-text{
     margin-top: 50px;
     width: 50%;
+}
+.comments{
+    padding: 200px;
+}
+.comment-heading{
+    display: flex;
+    justify-content: space-around;
+}
+.comment-title{
+    transform: translateX(-100px);
+    
+}
+.comment-list{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.comment-item{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    margin: 10px;
+    border-top-right-radius: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.client-profile{
+    display: flex;
+}
+.comment-photo{
+    width: 100px;
+    height: 100px;
+}
+.rate-jenny, .rate-brian, .rate-scott{
+    margin-top: 40px;
+    transform: translateX(-30px);
+    width: 80px;
+    height: 20px;
+}
+.jenny{
+    margin-top: 40px;
+}
+.scott{
+    transform: translate(14px, 20px);
+    width: 65px;
+    height:65px;
+}
+.brian{
+    transform: translateX(25px);
+}
+.comment-text{
+    width: 100%;
+    padding: 20px;
+}
+.rate-jenny{
+    position: absolute;
+    top:5%;
+    transform: translateX(240px);
+}
+.rate-brian{
+    position: absolute;
+    top:5%;
+    transform: translateX(240px);
+}
+.rate-scott{
+    position: absolute;
+    top:5%;
+    transform: translateX(240px);
 }
