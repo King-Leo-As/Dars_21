@@ -123,4 +123,69 @@ body{
     line-height: 2;
     color: grey;
     width: 120%;
+    margin-bottom: 20px;
 }
+.main{
+    position: relative;
+    margin-bottom: 200px;
+}
+.main-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.main-item{
+    width: 300px;
+    height: 280px;
+    margin:20px;
+    border-top-right-radius: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+    transition: 0.3s;
+}
+.main-item:hover{
+   box-shadow: 0px 0px 10px rgb(204, 196, 196);
+}
+.main-image{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.main-item-text{
+    font-size: 10px;
+    line-height: 2;
+    color: grey;
+    margin-top: 20px;
+}
+.button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+.icon{
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    width: 60px;
+    height: 60px;
+    z-index: -1;
+}
+.icon-setka{
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+}
+.half{
+    position: absolute;
+    bottom: 0%;
+    right: 1%;
+    z-index: -1;
+}
+
+
