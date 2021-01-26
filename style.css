@@ -50,6 +50,9 @@ body{
     border-radius: 5px;
     box-shadow: -5px 5px 5px -5px grey;
 }
+.heading{
+    margin-bottom: 100px;
+}
 
 .heading .container{
     display: flex;
@@ -103,4 +106,21 @@ body{
     top: 10%;
     right: 30%;
     z-index: -1;
+}
+.benefits-heading{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.benefits-title{
+    font-size: 50px;
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    transform: translateX(60px);
+}
+.benefits-text{
+    line-height: 2;
+    color: grey;
+    width: 120%;
 }
