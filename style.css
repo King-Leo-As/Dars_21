@@ -286,7 +286,8 @@ body{
 }
 
 .thinking-image{
-    width: 40%;        
+    transform: translateX(240px);
+    width: 50%;        
 }
 .thinking-text{
     width: 48%;
@@ -422,3 +423,106 @@ width: 100%;
     width: 250px;
     height: 150px;
 } */
+/* .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+} */
+/* .hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+} */
+.footer{
+    
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 100px;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 0px 50px rgb(204, 196, 196);
+    border-radius: 10px;
+}
+.project-title{
+    padding: 20px;
+    font-size: 40px;
+    width: 40%;
+}
+.email{
+    margin: 100px;
+    width: 30%;
+    border: 1px solid rgba(204, 196, 196, .3);
+    border-radius: 10px;
+    padding: 25px;
+}
+.resources{
+    
+    color: white;
+    background-color: #242424;
+}
+.resources .container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+.warning{
+    position: relative;
+  transform: translateX(-200px);
+    width: 30%;
+}
+.warning-text{
+    margin-top: 30px;
+    font-size: 12px;
+    width: 300px;
+    line-height: 2;
+}
+.resources-list{
+    transform: translateX(-100px);
+    width: 20%;
+    padding: 10px;
+    margin: 0px 50px;
+}
+.resource-item{
+    font-size: 12px;
+    width: 150px;
+   padding: 10px;
+}
+.resources-list-title{
+    transform: translateX(10px);
+}
+.header-email{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-top: 30px;
+}
+.offer{
+    margin-top: 30px;
+    width: 300px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+
+}
+hr{
+    background-color: solid black;
+}
