@@ -217,6 +217,7 @@ body{
     margin-left: 100px;
 }
 .experience-title{
+    width: 100%;
     font-size: 40px;
     margin-bottom: 10px;
 }
@@ -280,28 +281,36 @@ body{
     padding: 200px;
     z-index: -2;
 }
-.section-thinking .container{
+.section-thinking .container{ 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .thinking-image{
-    transform: translateX(240px);
-    width: 50%;        
+    transform: translateX(-30px);
+    width: 40%;
+    height: 0%;        
+}
+.thinking-title{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 .thinking-text{
-    width: 48%;
+    width: 40%;
     margin-top: 20px;
     margin-right: 300px;
 }
-.thinking-photo{
-    width: 100%;
-    transform: translateX(-100px);
+.thinking-subtext{
+    line-height: 2;
+    color: grey;
+    width: 120%;
+    margin-bottom: 20px;
 }
 .thinking-top{
     position: absolute;
     top: 17%;
-    right: 4%;
+    right: 0%;
     width: 220px;
     height: 120px;
 }
@@ -476,6 +485,7 @@ width: 100%;
     background-color: #242424;
 }
 .resources .container{
+    transform: translateX(-50px);
     padding: 50px;
     display: flex;
     justify-content: space-between;
@@ -483,7 +493,7 @@ width: 100%;
 }
 .warning{
     position: relative;
-  transform: translateX(-200px);
+ 
     width: 30%;
 }
 .warning-text{
@@ -493,19 +503,17 @@ width: 100%;
     line-height: 2;
 }
 .resources-list{
-    transform: translateX(-100px);
+    
     width: 20%;
     padding: 10px;
     margin: 0px 50px;
 }
 .resource-item{
     font-size: 12px;
-    width: 150px;
+    width: 10px;
    padding: 10px;
 }
-.resources-list-title{
-    transform: translateX(10px);
-}
+
 .header-email{
     border: none;
     background-color: transparent;
